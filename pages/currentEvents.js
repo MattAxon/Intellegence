@@ -15,7 +15,7 @@ export default function currentEvents() {
           imgPath="/HowUSIntelligenceGotItRight.jpg"
           text=" In the lead up to Russia's invasion of Ukraine, US Intelligence
       agencies were able to warn Ukraine of an impending invasion despite
-      the Russian government insisting otherwise. Here's how they did it."
+      the Russian government insisting otherwise. They were able to do this by switching the Intelligence Communities' focus from counter terrorism to Russia and China."
         />
         <NewsGrid
           articleLink="https://www.wsj.com/articles/four-u-s-intelligence-agencies-produced-extensive-reports-on-afghanistan-but-all-failed-to-predict-kabuls-rapid-collapse-11635415201"
