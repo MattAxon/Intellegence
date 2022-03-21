@@ -1,0 +1,2 @@
+htmlContent:
+    .replace('link rel="stylesheet" href="/_next/static', `link rel="stylesheet" href="./_next/static`)
