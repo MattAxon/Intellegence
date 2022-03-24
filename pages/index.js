@@ -13,23 +13,22 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <body className="place-content-center">
+      <div className="place-content-center">
         <h1 className="text-center text-lg mt-8 mb-4">
           United States Intelligence Community Report
         </h1>
         <iframe
-        className="mx-auto"
-          width="560"
-          height="315"
+          className="mx-auto"
           src="https://www.youtube.com/embed/OFIG6k4B3zg"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <h1 className="text-center mt-8">Timeline of US Intellegence Community{" "}</h1>
         <div className="justify-center">
           <Timeline
+          className="mx-auto"
             colorNum={3}
             hoverColor1={"hover:bg-red-400"}
             color1={"bg-red-500"}
@@ -39,7 +38,7 @@ export default function Home() {
             color3="bg-neutral-100"
           />
         </div>
-      </body>
+      </div>
     </div>
   );
 }

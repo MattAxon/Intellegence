@@ -6,7 +6,7 @@ export default function policy() {
       <Head>
         <title>Policy</title>
       </Head>
-      <body>
+      <div>
         <h1 className="text-center text-lg my-8">Policy</h1>
         <div>
           <p className="text-center mx-20">
@@ -41,7 +41,7 @@ export default function policy() {
             should the government fall.
           </p>
         </div>
-      </body>
+      </div>
     </div>
   );
 }
