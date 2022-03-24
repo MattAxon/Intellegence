@@ -1,9 +1,8 @@
 import Link from "next/link";
 export default function Navbar(props) {
   return (
-    <nav className="bg-blue-500 sticky top-0 mt-0 w-full shadow-lg navbar z-10 py-3">
+    <nav className="bg-blue-500 sticky top-0 mt-0 w-fit sm:w-full shadow-lg navbar z-10 py-3">
       <div className="px-5">
-        <div className="flex justify-between">
           <div className="flex space-x-6 items-center">
             <h1 className="text-white text-2xl relative hover:text-gray-200 font-bold">
               <Link href="/">
@@ -34,6 +33,9 @@ export default function Navbar(props) {
                   Current Events
                 </a>
               </Link>
+              <Link href="/SCOTUSCases">
+                <a className="text-white text-lg hover:text-gray-200">SCOTUS Cases</a>
+              </Link>
               <Link href="/worksCited">
                 <a
                   
@@ -45,7 +47,6 @@ export default function Navbar(props) {
             </div>
           </div>
         </div>
-      </div>
     </nav>
   );
 }

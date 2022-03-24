@@ -11,7 +11,7 @@ export default function NewsGrid({ imgPath, articleLink, text }) {
       <div className="w-2/5">
         <a className="w-full h-full" href={articleLink}>
           <div>
-            <p className="text-lg mt-4 text-center mx-4">{text}</p>
+            <p className="text-lg mt-4 text-center mx-4 ">{text}</p>
           </div>
         </a>
       </div>
