@@ -13,6 +13,9 @@ export default function WorksCited() {
         <p className="text-center mb-2"><i>“Major Intelligence Related Statutes.” Major Intelligence Related Statutes | Intelligence Committee, www.intelligence.senate.gov/laws/related-statutes.</i></p>
         <p className="text-center mb-2"><i>Office of the Clerk, U.S. House of Representatives.clerk.house.gov/evs/1999/roll555.xml.</i></p>
         <p className="text-center mb-2"><i>“Federal Bureau of Investigation v. Fazaga” Oyez, www.oyez.org/.</i></p>
+        <p className="text-center mb-2"><i>"Central Intelligence Agency v. Sims." Oyez, www.oyez.org/cases/1984/83-1075. Accessed 23 Mar. 2022.</i></p>
+
+        
 
       </div>
     </div>
