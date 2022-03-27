@@ -8,22 +8,27 @@ export default function year({ year, data }) {
       <Head>
         <title>{year}</title>
       </Head>
-      <h1 className="text-center text-lg my-8"> The Intelligence Community in the {year + "'s"}</h1>
-      {pageContent.map((content, index) => {
-        if (content.cartoon) {
-          return (
-            <div className="mx-20 mt-6 text-center" key={index}>
-              <YearContent text={content.text} cartoon={content.cartoon} />
-            </div>
-          );
-        } else {
-          return (
-            <div className="mx-20 mt-6 text-center" key={index}>
-              <YearContent heading={content.title} text={content.text} />
-            </div>
-          );
-        }
-      })}
+      <div>
+        <h1 className="text-center text-lg my-8">
+          {" "}
+          The Intelligence Community in the {year + "'s"}
+        </h1>
+        {pageContent.map((content, index) => {
+          if (content.cartoon) {
+            return (
+              <div className="mx-20 mt-6 text-center" key={index}>
+                <YearContent text={content.text} cartoon={content.cartoon} />
+              </div>
+            );
+          } else {
+            return (
+              <div className="mx-20 mt-6 text-center" key={index}>
+                <YearContent heading={content.title} text={content.text} />
+              </div>
+            );
+          }
+        })}
+      </div>
     </div>
   );
 }

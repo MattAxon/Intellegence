@@ -13,7 +13,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="place-content-center mb-8">
+      <div className="place-content-center mb-16">
         <h1 className="text-center text-lg my-8">
           United States Intelligence Community Report
         </h1>
