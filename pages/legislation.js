@@ -56,7 +56,7 @@ export default function legislation() {
           </div>
         </div>
         <div className="mb-8">
-          <h1 className="text-center text-lg mb-4">
+          <h1 className="text-center text-lg mx-8 mb-4">
             <b>Intelligence Reform and Terrorism Prevention Act</b>
           </h1>
           <p className="text-center mx-8">

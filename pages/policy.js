@@ -9,7 +9,7 @@ export default function policy() {
       <div>
         <h1 className="text-center text-lg my-8">Policy</h1>
         <div>
-          <p className="text-center mx-8 lg:mx-20">
+          <p className="text-center mb-8 mx-8 lg:mx-20">
             Since the 1960's the United State's intelligence community has
             almost certainly progressed. Prior to Nixon, the intelligence
             community was less of a community and more of a collection of

@@ -5,7 +5,7 @@ export default function NewsGrid({ imgPath, articleLink, text }) {
     <div className="md:flex mx-auto mb-4 md:w-8/12 w-96 h-fit border-2 border-slate-700">
       <div className="md:w-3/5">
         <a href={articleLink}>
-          <img className="h-fit" src={imgPath} />
+          <img className="w-fit md:h-fit" src={imgPath} />
         </a>
       </div>
       <div className="w-full md:w-2/5">

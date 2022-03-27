@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Intellegence Report Project</title>
+        <title>Intelligence Report Project</title>
         <meta
           name="description"
           content="Matt and Will's Intellegence report project"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="place-content-center">
+      <div className="place-content-center mb-8">
         <h1 className="text-center text-lg my-8">
           United States Intelligence Community Report
         </h1>
