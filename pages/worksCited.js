@@ -31,7 +31,8 @@ export default function WorksCited() {
           <p className="text-center mb-2 mx-2">
             <i>
               Office of the Clerk, U.S. House of
-              Representatives.clerk.house.gov/evs/1999/roll555.xml.
+              Representatives.clerk.house.gov/evs/1999/
+              roll555.xml.
             </i>
           </p>
           <p className="text-center mb-2 mx-2">
