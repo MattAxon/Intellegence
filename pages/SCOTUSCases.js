@@ -6,7 +6,7 @@ export default function SCOTUSCases() {
       <Head>
         <title>Supreme Court Cases</title>
       </Head>
-      <div className="text-center mx-8 lg:mx-32">
+      <div className="text-center mb-8 mx-8 lg:mx-32">
         <h1 className="text-lg my-6">SCOTUS Cases</h1>
         <div>
           <h1 className="mb-5"><b>Federal Bureau of Investigation v. Fazaga</b></h1>

@@ -7,7 +7,7 @@ export default function currentEvents() {
       <Head>
         <title>Current Events</title>
       </Head>
-      <div className="grid grid-cols-1 justify-items-center mt-8">
+      <div className="grid grid-cols-1 justify-items-center h-fit my-8">
         <h1 className="text-center text-lg mb-8">Current Events</h1>
         <NewsGrid
           className=""

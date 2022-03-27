@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="place-content-center">
-        <h1 className="text-center text-lg mt-8 mb-4">
+        <h1 className="text-center text-lg my-8">
           United States Intelligence Community Report
         </h1>
         <iframe

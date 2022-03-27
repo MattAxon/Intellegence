@@ -10,6 +10,12 @@
     "serve": "npx serve out/"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@headlessui/react": "^1.5.0",
+    "babel-plugin-macros": "^3.1.0",
     "gray-matter": "^4.0.3",
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-optipng": "^8.0.0",
