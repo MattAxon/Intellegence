@@ -10,7 +10,7 @@ export default function Timebar({ color, hoverColor, year }) {
         </a>
       </Link>
 
-      <p className="text-sm md:text-base">{year + "'s"}</p>
+      <p className="text-xs md:text-base">{year + "'s"}</p>
     </div>
   );
 }
