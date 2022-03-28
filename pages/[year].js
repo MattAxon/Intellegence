@@ -8,7 +8,7 @@ export default function year({ year, data }) {
       <Head>
         <title>{year}</title>
       </Head>
-      <div>
+      <div className="mb-8">
         <h1 className="text-center text-lg my-8">
           {" "}
           The Intelligence Community in the {year + "'s"}
